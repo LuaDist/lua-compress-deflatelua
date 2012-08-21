@@ -4,9 +4,8 @@ version = "0.1.0"
 
 desc = "'compress.deflatelua' DEFLATE (RFC1951)/gunzip implemented in pure Lua"
 author = "David Manura"
-
 maintainer = "Peter Kapec"
-homepage = "http://lua-users.org/wiki/ModuleCompressDeflateLua"
+url = "https://github.com/davidm/lua-compress-deflatelua"
 license = "MIT"
 
 depends = {

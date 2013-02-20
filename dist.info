@@ -1,0 +1,34 @@
+type = "x86"
+arch = "Windows"
+author = "David Manura"
+depends = {
+[[lua ~> 5.1]],
+[[lua-digest-crc32lua >=0.1.0]],
+[[lua-pythonic-optparse >=0.1.0]],
+[[lua-bit-numberlua >=0.1.0]],
+}
+
+desc = "compress.deflatelua - DEFLATE (RFC1951)/gunzip implemented in pure Lua"
+version = "0.1.0"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib\lua\compress\deflatelua.lua]],
+[[lib\lua\bin\gunziplua.lua]],
+[[bin\gunziplua]],
+}
+,
+Data = {
+[[share\lua-compress-deflatelua\COPYRIGHT]],
+[[share\lua-compress-deflatelua\hello.txt.gz]],
+}
+,
+Test = {
+[[share\lua-compress-deflatelua\test\test.lua]],
+}
+,
+}
+
+url = "https://github.com/davidm/lua-compress-deflatelua"
+name = "lua-compress-deflatelua"
+license = "MIT"
